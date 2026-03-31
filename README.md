@@ -4,7 +4,8 @@
 **Institut Teknologi Sumatera (ITERA)**
 
 **Disusun Oleh:** Anselmus Herpin Hasugian (123140020)
-**Dosen Pengampu:** - Muhammad Habib Algifari, S.Kom., M.T.I.
+**Dosen Pengampu:** 
+- Muhammad Habib Algifari, S.Kom., M.T.I.
 - Alya Khairunnisa Rizkita, S.Kom., M.Kom.
 
 ---
