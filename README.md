@@ -2,8 +2,10 @@
 
 **Sistem Informasi Geografis - Teknik Informatika**
 **Institut Teknologi Sumatera (ITERA)**
-
 **Disusun Oleh:** Anselmus Herpin Hasugian (123140020)
+
+---
+
 **Dosen Pengampu:** 
 - Muhammad Habib Algifari, S.Kom., M.T.I.
 - Alya Khairunnisa Rizkita, S.Kom., M.Kom.
@@ -38,4 +40,21 @@ Selain itu, optimasi query dari penggunaan ST_Distance (Anti-pattern) menjadi ST
 ---
 
 ## Dokumentasi Lengkap
+Sebelum dilakukan penerapan GiST Index dan pembaruan statistik tabel (VACUUM ANALYZE)
+<img width="1919" height="1199" alt="Screenshot 2026-03-31 183502" src="https://github.com/user-attachments/assets/e49c73cc-224a-4962-a54f-21ae5ca4dde3" />
+<img width="1919" height="1199" alt="Screenshot 2026-03-31 183540" src="https://github.com/user-attachments/assets/bc1dc7b0-eb18-4712-aaf6-e433747372f3" />
+<img width="1919" height="1199" alt="Screenshot 2026-03-31 183601" src="https://github.com/user-attachments/assets/a1b335ee-55a7-4ed8-b072-7afe2fcb27ef" />
+
+Setelah dilakukan penerapan GiST Index dan pembaruan statistik tabel (VACUUM ANALYZE)
+<img width="1919" height="1194" alt="Screenshot 2026-03-31 195813" src="https://github.com/user-attachments/assets/a88d11b9-e299-41f8-b631-92a726ed642e" />
+<img width="1919" height="1199" alt="Screenshot 2026-03-31 194622" src="https://github.com/user-attachments/assets/12bf448e-883a-40cf-b869-4e2ebbef9fb5" />
+<img width="1919" height="1194" alt="Screenshot 2026-03-31 195813" src="https://github.com/user-attachments/assets/ce4d689c-8280-4cd0-8416-9cb4ef559abe" />
+
+Durasi Eksekusi Query dari penggunaan ST_Distance (Anti-pattern)
+<img width="1919" height="1199" alt="Screenshot 2026-03-31 193752" src="https://github.com/user-attachments/assets/e3c5810e-1bf5-47bd-84f8-022c46b42c76" />
+
+Menjadi ST_DWithin (Best practice yang memanfaatkan Two-Phase Filter & Bounding Box)
+<img width="1919" height="1199" alt="Screenshot 2026-03-31 193804" src="https://github.com/user-attachments/assets/abe70459-6490-4252-a190-e7791010128e" />
+
+
 Catatan Penting: Untuk informasi yang lebih komprehensif, detail query SQL yang dieksekusi, bukti tangkapan layar (screenshot) hasil EXPLAIN ANALYZE, serta analisis mendalam dari setiap tahapan, silakan merujuk pada file Laporan PDF yang terlampir di dalam repositori ini.
